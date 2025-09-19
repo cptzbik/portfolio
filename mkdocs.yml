@@ -1,0 +1,44 @@
+site_name: Portfolio
+theme:
+  name: material
+  palette:
+    - scheme: slate
+      primary: orange
+      accent: orange
+      toggle:
+        icon: material/brightness-auto
+        name: Switch to dark mode
+    - scheme: default
+      primary: orange
+      accent: orange
+      toggle:
+        icon: material/brightness-7
+        name: Switch to light mode
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - navigation.footer
+    - navigation.tracking
+    - content.code.copy
+    - content.code.annotate
+    - content.tabs.link
+    - content.tabs.instant
+    - header.autohide
+    - search.highlight
+    - search.share
+site_author: Michał Kotowski
+site_description: >-
+  Portfolio of my Data Science and AI projects!
+
+nav:
+- Home: index.md
+- Previous projects:
+  - "NalaGPT": nalagpt/index.md
+  - "Iris": iris/index.md
+  - "Titanic": titanic/index.md
+  - "Insurance": insurance/index.md
+  - "Find Friends App": find_friends_v3/index.md
+  - "Audio Notes App": audio_notes_v6/index.md
+  - "Half Marathon": halfmaraton/index.md
